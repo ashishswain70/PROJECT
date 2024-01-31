@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+    border:border-box;
+}
+.navbar{
+    height:70px;
+    background-color: black;
+    color:antiquewhite;
+    display:flex;
+    align-items:center;
+}
+.nav-logo{
+    height:60px;
+    width:120px;
+}
+.logo{
+    background-image:url("am.png") ;
+    background-size: cover;
+    height: 40px;
+    width: 100%;
+    margin-top:10px;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:1px solid rgb(216, 132, 54);
+}
+.add-first{
+    color:#cccccc;
+    font-size: 1rem;
+    margin-left:5px;
+    margin-top:10px;
+}
+.add-second{
+    font-size:1rem;
+    margin-left:5px;
+}
+.add-icon{
+    display:flex;
+    margin-left:5px;
+}
+.nav-search{
+    margin-left:20px;
+    display:flex;
+}
